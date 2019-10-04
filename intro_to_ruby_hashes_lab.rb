@@ -25,7 +25,7 @@ end
 
 def read_from_hash(hash, key)
   hash = {:key => "Hi" }
-  hash["Hi"]
+  hash[:key]
   hash[:negative]
 end
 
