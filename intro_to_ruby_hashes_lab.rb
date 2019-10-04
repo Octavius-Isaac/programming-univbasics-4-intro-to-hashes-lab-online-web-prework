@@ -25,7 +25,11 @@ end
 
 def read_from_hash(hash, key)
   hash = {:key => 0}
-  
+  if hash[2]
+  puts 
+else
+  puts "No rambutan."
+end
   hash[:output]
 end
 
