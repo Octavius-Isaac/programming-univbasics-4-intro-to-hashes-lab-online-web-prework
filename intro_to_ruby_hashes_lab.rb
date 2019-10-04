@@ -25,7 +25,7 @@ end
 
 def read_from_hash(hash, key)
   hash = {:key}
-  hash 
+  hash[:output]
 end
 
 def update_counting_hash(hash, key)
